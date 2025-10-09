@@ -171,9 +171,9 @@ ravdw --version
 +---------------------------------------------------------+
 |                                                         |
 |   🏢 Informações do Registrador                         |
-|   Registrador: Exemplo Inc.                         |
-|   Email de Abuso: abuse@exemplo.com       |
-|   Formulário: https://www.exemplo.com/contact-us/   |
+|   Registrador: Exemplo Inc.                             |
+|   Email de Abuso: abuse@exemplo.com                     |
+|   Formulário: https://www.exemplo.com/contact-us/       |
 |                                                         |
 +---------------------------------------------------------+
 ```
