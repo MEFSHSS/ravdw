@@ -1,6 +1,6 @@
 {
     "name": "ravdw",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🔍 Consulta WHOIS simples, 📬 Sugestões inteligentes de contatos para denúncia e 📄 Sistema simples de relatório.",
     "main": "lib/index.js",
     "bin": {
@@ -8,12 +8,13 @@
     },
     "type": "commonjs",
     "dependencies": {
-        "axios": "^1.7.2",
-        "boxen": "^8.0.1",
+        "axios": "^1.12.2",
+        "boxen": "^5.1.2",
         "chalk": "^4.1.2",
-        "figlet": "^1.7.0",
-        "inquirer": "^8.2.6",
-        "moment-timezone": "^0.5.45"
+        "esm": "^3.2.25",
+        "figlet": "^1.9.3",
+        "inquirer": "^8.2.7",
+        "moment-timezone": "^0.5.48"
     },
     "keywords": [
         "whois",
