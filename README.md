@@ -229,6 +229,6 @@ Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para deta
 
 ## Feito com 💚 por [RavenaStar](https://linktr.ee/ravenastar)
 
-[⬆ Voltar ao topo](#--ravdw)
+[⬆ Voltar ao topo](#-ravdw)
 
 </div>
