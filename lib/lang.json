@@ -16,7 +16,6 @@
       "free": "Gratuita",
       "paid": "Paga"
     },
-
     "cli": {
       "help": {
         "title": "🛠️  RAVDW - Comandos Disponíveis",
@@ -48,20 +47,27 @@
         "subtitle": "Ferramenta de Consulta WHOIS e Denúncias"
       }
     },
-
     "interactive": {
       "main_menu": {
         "message": "O que deseja fazer?",
         "choices": {
-          "lookup": { "name": "🔍 Consultar informações WHOIS", "value": "lookup" },
-          "report": { "name": "🧾 Gerar relatório de denúncia", "value": "report" },
-          "exit": { "name": "❌ Sair", "value": "exit" }
+          "lookup": {
+            "name": "🔍 Consultar informações WHOIS",
+            "value": "lookup"
+          },
+          "report": {
+            "name": "🧾 Gerar relatório de denúncia",
+            "value": "report"
+          },
+          "exit": {
+            "name": "❌ Sair",
+            "value": "exit"
+          }
         }
       },
       "domain_prompt": "🌐 Informe o domínio ou URL alvo:",
       "continue_using": "Deseja realizar outra operação?"
     },
-
     "lookup": {
       "domain_info": "📋 Informações do Domínio",
       "domain": "Domínio",
@@ -76,8 +82,12 @@
       "hosting": "Hospedagem",
       "type": "Tipo",
       "suggested_contacts": "📬 Contatos sugeridos para denúncia:",
-      "no_contacts": "⚠️ Nenhum contato específico encontrado. Consulte o registrador/hospedagem diretamente.",
+      "related_domains": "🌐 Domínios relacionados encontrados:",
+      "reliability_info": "📊 Confiabilidade dos Dados",
       "completed": "✅ Consulta concluída.",
+      "freeHosting": "Gratuita",
+      "paidHosting": "Paga",
+      "unknown": "Desconhecido",
       "no_contacts_links": {
         "warning": "⚠️ Contatos não encontrados automaticamente.\n\n🔍 Consulte diretamente:",
         "links": [
@@ -95,25 +105,60 @@
         "final": "\n\n📞 Contate o registrador/hospedagem via site oficial."
       }
     },
-
     "report": {
       "violation_types": {
-        "phishing": { "name": "🕵️ Phishing", "description": "imitação de sites legítimos para captura de credenciais" },
-        "piracy": { "name": "🏴‍☠️ Pirataria", "description": "distribuição não autorizada de conteúdo protegido" },
-        "lgpd": { "name": "📊 LGPD / GDPR", "description": "violação de proteção de dados pessoais" },
-        "childporn": { "name": "🚫 Pornografia Infantil", "description": "conteúdo de exploração sexual infantil" },
-        "hate": { "name": "💢 Discurso de Ódio", "description": "incitamento à discriminação ou violência" },
-        "scam": { "name": "🎭 Golpe / Scam", "description": "aplicação de golpes financeiros ou fraudes" },
-        "copyright": { "name": "📝 Violação de Direitos Autorais", "description": "uso não autorizado de propriedade intelectual" },
-        "malware": { "name": "🦠 Distribuição de Malware", "description": "distribuição de software malicioso" },
-        "spam": { "name": "📨 Spam Massivo", "description": "envio em massa de comunicações não solicitadas" },
-        "other": { "name": "❓ Outro", "description": "outro tipo de violação não listada" }
+        "phishing": {
+          "name": "🕵️ Phishing",
+          "description": "imitação de sites legítimos para captura de credenciais"
+        },
+        "piracy": {
+          "name": "🏴‍☠️ Pirataria",
+          "description": "distribuição não autorizada de conteúdo protegido"
+        },
+        "lgpd": {
+          "name": "📊 LGPD / GDPR",
+          "description": "violação de proteção de dados pessoais"
+        },
+        "childporn": {
+          "name": "🚫 Pornografia Infantil",
+          "description": "conteúdo de exploração sexual infantil"
+        },
+        "hate": {
+          "name": "💢 Discurso de Ódio",
+          "description": "incitamento à discriminação ou violência"
+        },
+        "scam": {
+          "name": "🎭 Golpe / Scam",
+          "description": "aplicação de golpes financeiros ou fraudes"
+        },
+        "copyright": {
+          "name": "📝 Violação de Direitos Autorais",
+          "description": "uso não autorizado de propriedade intelectual"
+        },
+        "malware": {
+          "name": "🦠 Distribuição de Malware",
+          "description": "distribuição de software malicioso"
+        },
+        "spam": {
+          "name": "📨 Spam Massivo",
+          "description": "envio em massa de comunicações não solicitadas"
+        },
+        "other": {
+          "name": "❓ Outro",
+          "description": "outro tipo de violação não listada"
+        }
       },
       "select_violations": "Selecione os tipos de violação:",
       "select_report_language": "🌐 Em qual idioma gerar o relatório?",
       "language_choices": [
-        { "name": "🇧🇷 Português", "value": "pt" },
-        { "name": "🇺🇸 Inglês", "value": "en" }
+        {
+          "name": "🇧🇷 Português",
+          "value": "pt"
+        },
+        {
+          "name": "🇺🇸 Inglês",
+          "value": "en"
+        }
       ],
       "evidence_prompt": "🔗 Informe os links de evidência (separados por vírgula):",
       "evidence_example": "Exemplo: https://exemplo.com/prova1, https://exemplo.com/prova2",
@@ -131,7 +176,6 @@
         ]
       }
     },
-
     "sitemap": {
       "hosting_provider": "🏠 Este site está hospedado no {provider}. Contate o provedor para reportar abusos.",
       "subdomain_warning": "🎯 Este é um subdomínio ({subdomain}) do domínio {rootDomain}. O responsável pelo domínio principal pode ter controle.",
@@ -147,7 +191,6 @@
         "low": "BAIXO"
       }
     },
-
     "whois": {
       "technical_info": {
         "whois_title": "🔍 WHOIS para:",
@@ -160,11 +203,19 @@
         "reliability": "📈 Confiabilidade dos Dados",
         "score": "Pontuação",
         "level": "Nível",
-        "sources": "Fontes Utilizadas"
+        "sources": "Fontes Utilizadas",
+        "domain": "Domínio",
+        "registered_on": "Registrado em",
+        "expires_on": "Expira em",
+        "updated_on": "Atualizado em",
+        "registrar": "Registrador",
+        "abuse_email": "Email de Abuso",
+        "form": "Formulário",
+        "hosting": "Hospedagem",
+        "type": "Tipo"
       }
     }
   },
-
   "en": {
     "common": {
       "operation_cancelled": "⏹️  Operation cancelled by user.",
@@ -182,7 +233,6 @@
       "free": "Free",
       "paid": "Paid"
     },
-
     "cli": {
       "help": {
         "title": "🛠️  RAVDW - Available Commands",
@@ -214,20 +264,27 @@
         "subtitle": "WHOIS Query and Reporting Tool"
       }
     },
-
     "interactive": {
       "main_menu": {
         "message": "What do you want to do?",
         "choices": {
-          "lookup": { "name": "🔍 Query WHOIS information", "value": "lookup" },
-          "report": { "name": "🧾 Generate report", "value": "report" },
-          "exit": { "name": "❌ Exit", "value": "exit" }
+          "lookup": {
+            "name": "🔍 Query WHOIS information",
+            "value": "lookup"
+          },
+          "report": {
+            "name": "🧾 Generate report",
+            "value": "report"
+          },
+          "exit": {
+            "name": "❌ Exit",
+            "value": "exit"
+          }
         }
       },
       "domain_prompt": "🌐 Enter target domain or URL:",
       "continue_using": "Do you want to perform another operation?"
     },
-
     "lookup": {
       "domain_info": "📋 Domain Information",
       "domain": "Domain",
@@ -242,8 +299,12 @@
       "hosting": "Hosting",
       "type": "Type",
       "suggested_contacts": "📬 Suggested contacts for reporting:",
-      "no_contacts": "⚠️ No specific contacts found. Contact the registrar/hosting directly.",
+      "related_domains": "🌐 Related domains found:",
+      "reliability_info": "📊 Data Reliability",
       "completed": "✅ Query completed.",
+      "freeHosting": "Free",
+      "paidHosting": "Paid",
+      "unknown": "Unknown",
       "no_contacts_links": {
         "warning": "⚠️ Contacts not found automatically.\n\n🔍 Check directly:",
         "links": [
@@ -261,25 +322,60 @@
         "final": "\n\n📞 Contact the registrar/hosting provider via official website."
       }
     },
-
     "report": {
       "violation_types": {
-        "phishing": { "name": "🕵️ Phishing", "description": "imitation of legitimate sites for credential capture" },
-        "piracy": { "name": "🏴‍☠️ Piracy", "description": "unauthorized distribution of protected content" },
-        "lgpd": { "name": "📊 LGPD / GDPR", "description": "violation of personal data protection" },
-        "childporn": { "name": "🚫 Child Pornography", "description": "child sexual exploitation content" },
-        "hate": { "name": "💢 Hate Speech", "description": "incitement to discrimination or violence" },
-        "scam": { "name": "🎭 Scam / Fraud", "description": "financial scams or fraud schemes" },
-        "copyright": { "name": "📝 Copyright Infringement", "description": "unauthorized use of intellectual property" },
-        "malware": { "name": "🦠 Malware Distribution", "description": "distribution of malicious software" },
-        "spam": { "name": "📨 Mass Spam", "description": "mass sending of unsolicited communications" },
-        "other": { "name": "❓ Other", "description": "other type of violation not listed" }
+        "phishing": {
+          "name": "🕵️ Phishing",
+          "description": "imitation of legitimate sites for credential capture"
+        },
+        "piracy": {
+          "name": "🏴‍☠️ Piracy",
+          "description": "unauthorized distribution of protected content"
+        },
+        "lgpd": {
+          "name": "📊 LGPD / GDPR",
+          "description": "violation of personal data protection"
+        },
+        "childporn": {
+          "name": "🚫 Child Pornography",
+          "description": "child sexual exploitation content"
+        },
+        "hate": {
+          "name": "💢 Hate Speech",
+          "description": "incitement to discrimination or violence"
+        },
+        "scam": {
+          "name": "🎭 Scam / Fraud",
+          "description": "financial scams or fraud schemes"
+        },
+        "copyright": {
+          "name": "📝 Copyright Infringement",
+          "description": "unauthorized use of intellectual property"
+        },
+        "malware": {
+          "name": "🦠 Malware Distribution",
+          "description": "distribution of malicious software"
+        },
+        "spam": {
+          "name": "📨 Mass Spam",
+          "description": "mass sending of unsolicited communications"
+        },
+        "other": {
+          "name": "❓ Other",
+          "description": "other type of violation not listed"
+        }
       },
       "select_violations": "Select violation types:",
       "select_report_language": "🌐 In which language generate the report?",
       "language_choices": [
-        { "name": "🇧🇷 Portuguese", "value": "pt" },
-        { "name": "🇺🇸 English", "value": "en" }
+        {
+          "name": "🇧🇷 Portuguese",
+          "value": "pt"
+        },
+        {
+          "name": "🇺🇸 English",
+          "value": "en"
+        }
       ],
       "evidence_prompt": "🔗 Enter evidence links (separated by comma):",
       "evidence_example": "Example: https://example.com/evidence1, https://example.com/evidence2",
@@ -297,7 +393,6 @@
         ]
       }
     },
-
     "sitemap": {
       "hosting_provider": "🏠 This site is hosted on {provider}. Contact the provider to report abuse.",
       "subdomain_warning": "🎯 This is a subdomain ({subdomain}) of the domain {rootDomain}. The main domain owner may have control.",
@@ -313,7 +408,6 @@
         "low": "LOW"
       }
     },
-
     "whois": {
       "technical_info": {
         "whois_title": "🔍 WHOIS for:",
@@ -326,7 +420,16 @@
         "reliability": "📈 Data Reliability",
         "score": "Score",
         "level": "Level",
-        "sources": "Sources Used"
+        "sources": "Sources Used",
+        "domain": "Domain",
+        "registered_on": "Registered On",
+        "expires_on": "Expires On",
+        "updated_on": "Updated On",
+        "registrar": "Registrar",
+        "abuse_email": "Abuse Email",
+        "form": "Form",
+        "hosting": "Hosting",
+        "type": "Type"
       }
     }
   }
