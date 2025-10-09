@@ -4,11 +4,11 @@ const chalk = require('chalk');
 const boxen = require('boxen');
 const figlet = require('figlet');
 const { getVersion } = require('../lib');
-const { detectSystemLanguage, handleError } = require('../lib/utils');
+const { detectSystemLanguage, handleError } = require('../lib/core/utils');
 const { interactiveMode } = require('../lib/commands/interactive');
 const { quickLookupMode } = require('../lib/commands/lookup');
 const { generateReportMode } = require('../lib/commands/report');
-const i18n = require('../lib/i18n');
+const i18n = require('../lib/core/i18n');
 
 function getCommands(lang) {
     return {
