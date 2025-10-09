@@ -1,0 +1,333 @@
+{
+  "pt": {
+    "common": {
+      "operation_cancelled": "⏹️  Operação cancelada pelo usuário.",
+      "goodbye": "👋 Até logo!",
+      "invalid_domain": "❌ Domínio inválido:",
+      "domain_not_specified": "❌ Domínio não especificado. Use: ravdw lookup exemplo.com",
+      "unknown_command": "❌ Comando desconhecido:",
+      "fatal_error": "❌ Erro fatal:",
+      "querying_whois": "🔍 Consultando dados WHOIS para:",
+      "generating_report": "📄 Gerando relatório...",
+      "report_generated": "✅ Relatório gerado com sucesso:",
+      "report_ready": "📄 O relatório \"{domain}_relatorio.txt\" está pronto para uso.",
+      "next_steps_included": "🎯 Os próximos passos recomendados já estão incluídos no relatório gerado.",
+      "unknown": "Desconhecido",
+      "free": "Gratuita",
+      "paid": "Paga"
+    },
+
+    "cli": {
+      "help": {
+        "title": "🛠️  RAVDW - Comandos Disponíveis",
+        "usage": "Uso:",
+        "main_commands": "📋 COMANDOS PRINCIPAIS:",
+        "other_commands": "🔧 OUTROS COMANDOS:",
+        "report_options": "🎯 OPÇÕES DE RELATÓRIO:",
+        "version": "Versão:",
+        "compatible": "Compatível: Termux, Linux, macOS, Windows",
+        "box_title": "ravdw Help"
+      },
+      "commands": {
+        "lookup": "Consulta rápida de domínio",
+        "report": "Gerar relatório de denúncia",
+        "interactive": "Modo interativo completo",
+        "help": "Exibir ajuda",
+        "version": "Exibir versão"
+      },
+      "usage_examples": {
+        "interactive_default": "# Modo interativo (padrão)",
+        "quick_lookup": "# Consulta rápida",
+        "specific_lookup": "# Consulta específica",
+        "generate_report": "# Gerar relatório",
+        "show_help": "# Exibir esta ajuda",
+        "show_version": "# Exibir versão"
+      },
+      "version": {
+        "banner": "RAVDW",
+        "subtitle": "Ferramenta de Consulta WHOIS e Denúncias"
+      }
+    },
+
+    "interactive": {
+      "main_menu": {
+        "message": "O que deseja fazer?",
+        "choices": {
+          "lookup": { "name": "🔍 Consultar informações WHOIS", "value": "lookup" },
+          "report": { "name": "🧾 Gerar relatório de denúncia", "value": "report" },
+          "exit": { "name": "❌ Sair", "value": "exit" }
+        }
+      },
+      "domain_prompt": "🌐 Informe o domínio ou URL alvo:",
+      "continue_using": "Deseja realizar outra operação?"
+    },
+
+    "lookup": {
+      "domain_info": "📋 Informações do Domínio",
+      "domain": "Domínio",
+      "registered_on": "Registrado em",
+      "expires_on": "Expira em",
+      "updated_on": "Atualizado em",
+      "registrar_info": "🏢 Informações do Registrador",
+      "registrar": "Registrador",
+      "abuse_email": "Email de Abuso",
+      "form": "Formulário",
+      "hosting_info": "🏠 Informações de Hospedagem",
+      "hosting": "Hospedagem",
+      "type": "Tipo",
+      "suggested_contacts": "📬 Contatos sugeridos para denúncia:",
+      "no_contacts": "⚠️ Nenhum contato específico encontrado. Consulte o registrador/hospedagem diretamente.",
+      "completed": "✅ Consulta concluída.",
+      "no_contacts_links": {
+        "warning": "⚠️ Contatos não encontrados automaticamente.\n\n🔍 Consulte diretamente:",
+        "links": [
+          "• WHOIS: ",
+          "• ICANN: ",
+          "• Phish.Report: ",
+          "• AbuseIPDB: "
+        ],
+        "urls": [
+          "https://www.whois.com/whois/",
+          "https://lookup.icann.org/",
+          "https://phish.report/analysis",
+          "https://www.abuseipdb.com/"
+        ],
+        "final": "\n\n📞 Contate o registrador/hospedagem via site oficial."
+      }
+    },
+
+    "report": {
+      "violation_types": {
+        "phishing": { "name": "🕵️ Phishing", "description": "imitação de sites legítimos para captura de credenciais" },
+        "piracy": { "name": "🏴‍☠️ Pirataria", "description": "distribuição não autorizada de conteúdo protegido" },
+        "lgpd": { "name": "📊 LGPD / GDPR", "description": "violação de proteção de dados pessoais" },
+        "childporn": { "name": "🚫 Pornografia Infantil", "description": "conteúdo de exploração sexual infantil" },
+        "hate": { "name": "💢 Discurso de Ódio", "description": "incitamento à discriminação ou violência" },
+        "scam": { "name": "🎭 Golpe / Scam", "description": "aplicação de golpes financeiros ou fraudes" },
+        "copyright": { "name": "📝 Violação de Direitos Autorais", "description": "uso não autorizado de propriedade intelectual" },
+        "malware": { "name": "🦠 Distribuição de Malware", "description": "distribuição de software malicioso" },
+        "spam": { "name": "📨 Spam Massivo", "description": "envio em massa de comunicações não solicitadas" },
+        "other": { "name": "❓ Outro", "description": "outro tipo de violação não listada" }
+      },
+      "select_violations": "Selecione os tipos de violação:",
+      "select_report_language": "🌐 Em qual idioma gerar o relatório?",
+      "language_choices": [
+        { "name": "🇧🇷 Português", "value": "pt" },
+        { "name": "🇺🇸 Inglês", "value": "en" }
+      ],
+      "evidence_prompt": "🔗 Informe os links de evidência (separados por vírgula):",
+      "evidence_example": "Exemplo: https://exemplo.com/prova1, https://exemplo.com/prova2",
+      "evidence_required": "Por favor, informe pelo menos um link de evidência.",
+      "next_steps": {
+        "title": "🎯 PRÓXIMOS PASSOS RECOMENDADOS:",
+        "steps": [
+          "🌐 Arquive as evidências gratuitamente na Wayback Machine (archive.org) para garantir a preservação pública e a rastreabilidade.",
+          "📸 Registre as evidências em plataformas confiáveis, como a Verifact, que geram provas com validade jurídica e metadados verificáveis.",
+          "📝 Formalize um Boletim de Ocorrência (BO), presencialmente ou pela delegacia virtual, caso tenha sido vítima de crime (como calúnia, difamação, ameaça, fraude, entre outros). O BO é essencial para oficializar a denúncia e permitir a investigação pelas autoridades.",
+          "⚖️ Consulte um advogado especializado em direito digital para avaliar as medidas legais cabíveis, como notificações extrajudiciais, ações civis, ações criminais ou pedidos de remoção de conteúdo.",
+          "💾 Mantenha backups organizados e seguros de todas as evidências, registros e comunicações, preferencialmente em nuvem criptografada e também em mídias físicas, como HD externo ou pen drive.",
+          "💡 Adapte o relatório com base nas evidências e envie por e-mail ou formulário para o serviço de hospedagem, registrador de domínio ou plataforma responsável, solicitando providências.",
+          "⚠️ Ajuste o relatório conforme os fatos e circunstâncias específicas de cada caso, incluindo datas, URLs, capturas de tela e os impactos causados."
+        ]
+      }
+    },
+
+    "sitemap": {
+      "hosting_provider": "🏠 Este site está hospedado no {provider}. Contate o provedor para reportar abusos.",
+      "subdomain_warning": "🎯 Este é um subdomínio ({subdomain}) do domínio {rootDomain}. O responsável pelo domínio principal pode ter controle.",
+      "tld_warning": "⚠️ Este domínio usa um TLD que pode ser de obtenção gratuita. Verifique cuidadosamente a legitimidade.",
+      "risk_factors": {
+        "free_hosting": "🏠 Hospedagem gratuita (+30)",
+        "unknown_tld": "🌐 TLD gratuito ou desconhecido (+20)",
+        "subdomain": "🎯 É um subdomínio (+15)"
+      },
+      "risk_levels": {
+        "high": "ALTO",
+        "medium": "MÉDIO",
+        "low": "BAIXO"
+      }
+    },
+
+    "whois": {
+      "technical_info": {
+        "whois_title": "🔍 WHOIS para:",
+        "domain_info": "📋 Informações do Domínio",
+        "registrar_info": "🏢 Informações do Registrador",
+        "hosting_info": "🏠 Informações de Hospedagem",
+        "name_servers": "🌐 Servidores de Nome (DNS)",
+        "status": "📊 Status do Domínio",
+        "contacts": "📞 Contatos",
+        "reliability": "📈 Confiabilidade dos Dados",
+        "score": "Pontuação",
+        "level": "Nível",
+        "sources": "Fontes Utilizadas"
+      }
+    }
+  },
+
+  "en": {
+    "common": {
+      "operation_cancelled": "⏹️  Operation cancelled by user.",
+      "goodbye": "👋 Goodbye!",
+      "invalid_domain": "❌ Invalid domain:",
+      "domain_not_specified": "❌ Domain not specified. Use: ravdw lookup example.com",
+      "unknown_command": "❌ Unknown command:",
+      "fatal_error": "❌ Fatal error:",
+      "querying_whois": "🔍 Querying WHOIS data for:",
+      "generating_report": "📄 Generating report...",
+      "report_generated": "✅ Report generated successfully:",
+      "report_ready": "📄 The report \"{domain}_report.txt\" is ready for use.",
+      "next_steps_included": "🎯 Recommended next steps are already included in the generated report.",
+      "unknown": "Unknown",
+      "free": "Free",
+      "paid": "Paid"
+    },
+
+    "cli": {
+      "help": {
+        "title": "🛠️  RAVDW - Available Commands",
+        "usage": "Usage:",
+        "main_commands": "📋 MAIN COMMANDS:",
+        "other_commands": "🔧 OTHER COMMANDS:",
+        "report_options": "🎯 REPORT OPTIONS:",
+        "version": "Version:",
+        "compatible": "Compatible: Termux, Linux, macOS, Windows",
+        "box_title": "ravdw Help"
+      },
+      "commands": {
+        "lookup": "Quick domain lookup",
+        "report": "Generate abuse report",
+        "interactive": "Full interactive mode",
+        "help": "Show help",
+        "version": "Show version"
+      },
+      "usage_examples": {
+        "interactive_default": "# Interactive mode (default)",
+        "quick_lookup": "# Quick lookup",
+        "specific_lookup": "# Specific lookup",
+        "generate_report": "# Generate report",
+        "show_help": "# Show this help",
+        "show_version": "# Show version"
+      },
+      "version": {
+        "banner": "RAVDW",
+        "subtitle": "WHOIS Query and Reporting Tool"
+      }
+    },
+
+    "interactive": {
+      "main_menu": {
+        "message": "What do you want to do?",
+        "choices": {
+          "lookup": { "name": "🔍 Query WHOIS information", "value": "lookup" },
+          "report": { "name": "🧾 Generate report", "value": "report" },
+          "exit": { "name": "❌ Exit", "value": "exit" }
+        }
+      },
+      "domain_prompt": "🌐 Enter target domain or URL:",
+      "continue_using": "Do you want to perform another operation?"
+    },
+
+    "lookup": {
+      "domain_info": "📋 Domain Information",
+      "domain": "Domain",
+      "registered_on": "Registered On",
+      "expires_on": "Expires On",
+      "updated_on": "Updated On",
+      "registrar_info": "🏢 Registrar Information",
+      "registrar": "Registrar",
+      "abuse_email": "Abuse Email",
+      "form": "Form",
+      "hosting_info": "🏠 Hosting Information",
+      "hosting": "Hosting",
+      "type": "Type",
+      "suggested_contacts": "📬 Suggested contacts for reporting:",
+      "no_contacts": "⚠️ No specific contacts found. Contact the registrar/hosting directly.",
+      "completed": "✅ Query completed.",
+      "no_contacts_links": {
+        "warning": "⚠️ Contacts not found automatically.\n\n🔍 Check directly:",
+        "links": [
+          "• WHOIS: ",
+          "• ICANN: ",
+          "• Phish.Report: ",
+          "• AbuseIPDB: "
+        ],
+        "urls": [
+          "https://www.whois.com/whois/",
+          "https://lookup.icann.org/",
+          "https://phish.report/analysis",
+          "https://www.abuseipdb.com/"
+        ],
+        "final": "\n\n📞 Contact the registrar/hosting provider via official website."
+      }
+    },
+
+    "report": {
+      "violation_types": {
+        "phishing": { "name": "🕵️ Phishing", "description": "imitation of legitimate sites for credential capture" },
+        "piracy": { "name": "🏴‍☠️ Piracy", "description": "unauthorized distribution of protected content" },
+        "lgpd": { "name": "📊 LGPD / GDPR", "description": "violation of personal data protection" },
+        "childporn": { "name": "🚫 Child Pornography", "description": "child sexual exploitation content" },
+        "hate": { "name": "💢 Hate Speech", "description": "incitement to discrimination or violence" },
+        "scam": { "name": "🎭 Scam / Fraud", "description": "financial scams or fraud schemes" },
+        "copyright": { "name": "📝 Copyright Infringement", "description": "unauthorized use of intellectual property" },
+        "malware": { "name": "🦠 Malware Distribution", "description": "distribution of malicious software" },
+        "spam": { "name": "📨 Mass Spam", "description": "mass sending of unsolicited communications" },
+        "other": { "name": "❓ Other", "description": "other type of violation not listed" }
+      },
+      "select_violations": "Select violation types:",
+      "select_report_language": "🌐 In which language generate the report?",
+      "language_choices": [
+        { "name": "🇧🇷 Portuguese", "value": "pt" },
+        { "name": "🇺🇸 English", "value": "en" }
+      ],
+      "evidence_prompt": "🔗 Enter evidence links (separated by comma):",
+      "evidence_example": "Example: https://example.com/evidence1, https://example.com/evidence2",
+      "evidence_required": "Please provide at least one evidence link.",
+      "next_steps": {
+        "title": "🎯 RECOMMENDED NEXT STEPS:",
+        "steps": [
+          "🌐 Archive the evidence for free on the Wayback Machine (archive.org) to ensure public preservation and traceability.",
+          "📸 Record the evidence on trusted platforms such as Verifact, which generate legally valid proof with verifiable metadata.",
+          "📝 File a police report (BO), either in person or through the virtual police station, if you have been a victim of a crime (e.g., slander, defamation, threats, fraud, etc.). The report is essential to formalize the complaint and enable investigation by the authorities.",
+          "⚖️ Consult a lawyer specialized in digital law to assess appropriate legal actions, such as extrajudicial notifications, civil lawsuits, criminal proceedings, or content removal requests.",
+          "💾 Keep organized and secure backups of all evidence, records, and communications, preferably in encrypted cloud storage and also on physical media such as an external hard drive or USB stick.",
+          "💡 Adapt the report based on the evidence and send it via email or form to the hosting service, domain registrar, or responsible platform, requesting appropriate action.",
+          "⚠️ Adjust the report according to the specific facts and circumstances of each case, including dates, URLs, screenshots, and the impacts caused."
+        ]
+      }
+    },
+
+    "sitemap": {
+      "hosting_provider": "🏠 This site is hosted on {provider}. Contact the provider to report abuse.",
+      "subdomain_warning": "🎯 This is a subdomain ({subdomain}) of the domain {rootDomain}. The main domain owner may have control.",
+      "tld_warning": "⚠️ This domain uses a TLD that may be free to obtain. Carefully verify legitimacy.",
+      "risk_factors": {
+        "free_hosting": "🏠 Free hosting (+30)",
+        "unknown_tld": "🌐 Free or unknown TLD (+20)",
+        "subdomain": "🎯 It's a subdomain (+15)"
+      },
+      "risk_levels": {
+        "high": "HIGH",
+        "medium": "MEDIUM",
+        "low": "LOW"
+      }
+    },
+
+    "whois": {
+      "technical_info": {
+        "whois_title": "🔍 WHOIS for:",
+        "domain_info": "📋 Domain Information",
+        "registrar_info": "🏢 Registrar Information",
+        "hosting_info": "🏠 Hosting Information",
+        "name_servers": "🌐 Name Servers (DNS)",
+        "status": "📊 Domain Status",
+        "contacts": "📞 Contacts",
+        "reliability": "📈 Data Reliability",
+        "score": "Score",
+        "level": "Level",
+        "sources": "Sources Used"
+      }
+    }
+  }
+}

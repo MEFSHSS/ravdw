@@ -1,0 +1,37 @@
+{
+    "name": "ravdw",
+    "version": "1.0.0",
+    "description": "🔍 Consulta WHOIS simples, 📬 Sugestões inteligentes de contatos para denúncia e 📄 Sistema simples de relatório.",
+    "main": "lib/index.js",
+    "bin": {
+        "ravdw": "./bin/ravdw.js"
+    },
+    "type": "commonjs",
+    "dependencies": {
+        "axios": "^1.7.2",
+        "boxen": "^8.0.1",
+        "chalk": "^4.1.2",
+        "figlet": "^1.7.0",
+        "inquirer": "^8.2.6",
+        "moment-timezone": "^0.5.45"
+    },
+    "keywords": [
+        "whois",
+        "domain",
+        "security",
+        "abuse",
+        "report",
+        "phishing",
+        "cybersecurity",
+        "ravenastar"
+    ],
+    "author": "ravenastar-js",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ravenastar-js/ravdw"
+    },
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
