@@ -59,7 +59,7 @@ npm install -g ravdw     # ✅ Completo
 # Após instalação, use em qualquer lugar:
 ravdw help
 ravdw --help
-```bash
+```
 
 ### 🔍 VERIFICAR INSTALAÇÃO
 
