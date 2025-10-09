@@ -14,7 +14,7 @@
 [![⭐ Stars](https://img.shields.io/github/stars/ravenastar-js/ravdw?style=for-the-badge&label=%E2%AD%90%20Stars&color=2d7445&logo=star&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/ravdw/stargazers)
 [![🔱 Forks](https://img.shields.io/github/forks/ravenastar-js/ravdw?style=for-the-badge&label=%F0%9F%94%B1%20Forks&color=2d7445&logo=git&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/ravdw/network/members)
 [![📦 NPM Version](https://img.shields.io/npm/v/ravdw?style=for-the-badge&label=%F0%9F%93%A6%20NPM&color=2d7445&logo=npm&logoColor=white&labelColor=444&radius=10)](https://www.npmjs.com/package/ravdw)
-[![⚙️ Node.js](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Node.js-14.0%2B-green?style=for-the-badge&logo=nodedotjs&color=2d7445&logoColor=white&labelColor=444&radius=10)](https://nodejs.org)
+[![⚙️ Node.js](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Node.js-18.0%2B-green?style=for-the-badge&logo=nodedotjs&color=2d7445&logoColor=white&labelColor=444&radius=10)](https://nodejs.org)
 [![📄 License](https://img.shields.io/badge/%F0%9F%93%84%20License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&color=2d7445&logoColor=white&labelColor=444&radius=10)](LICENSE)
 
 </div>

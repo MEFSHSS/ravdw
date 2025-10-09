@@ -28,13 +28,19 @@ jobs:
       - name: 📦 Install dependencies
         run: |
           npm install
-          npm install chalk@^4.1.2 boxen@^8.0.1 figlet@^1.7.0 inquirer@^8.2.6 moment-timezone@^0.5.45 axios@^1.7.2
+          npm install chalk@^4.1.2 boxen@^5.1.2 figlet@^1.7.0 inquirer@^8.2.6 moment-timezone@^0.5.45 axios@^1.7.2
+
+      - name: 🛡️ Fix ESM compatibility
+        run: |
+          echo "🔧 Corrigindo compatibilidade ESM..."
+          npm install esm
+          echo "✅ Compatibilidade ESM configurada"
 
       - name: 🧪 Run basic tests
         run: |
           echo "🔍 Verificando estrutura do projeto..."
           node -e "console.log('✅ Node.js funcionando')"
-          node -e "require('./lib/index.js'); console.log('✅ Módulos carregados')"
+          node -r esm -e "require('./lib/index.js'); console.log('✅ Módulos carregados')"
           echo "🧪 Testes básicos concluídos"
 
       - name: 🏷️ Get current version
