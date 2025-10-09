@@ -1,6 +1,6 @@
 {
     "name": "ravdw",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "description": "🔍 Consulta WHOIS simples, 📬 Sugestões inteligentes de contatos para denúncia e 📄 Sistema simples de relatório.",
     "main": "lib/index.js",
     "bin": {
