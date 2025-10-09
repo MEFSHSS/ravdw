@@ -39,7 +39,12 @@ jobs:
         run: |
           echo "🔍 Verificando estrutura do projeto..."
           node -e "console.log('✅ Node.js funcionando')"
-          node -e "require('./lib/index.js'); console.log('✅ Módulos carregados')"
+          node -e "
+            const boxen = require('boxen');
+            console.log('✅ Boxen funcionando:', typeof boxen);
+            require('./lib/index.js'); 
+            console.log('✅ Módulos carregados')
+          "
           echo "🧪 Testes básicos concluídos"
 
       - name: 🏷️ Get current version
@@ -117,7 +122,7 @@ jobs:
             **🔍 Consulta WHOIS simples, 📬 Sugestões inteligentes de contatos para denúncia e 📄 Sistema simples de relatório.**
 
             ---
-
+            
             ## 🔗 Links Úteis
 
             - **📦 [Pacote NPM](https://www.npmjs.com/package/ravdw)**
